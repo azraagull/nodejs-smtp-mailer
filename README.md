@@ -9,8 +9,10 @@ Bu proje, React ve Node.js kullanarak SMTP üzerinden e-posta gönderen basit bi
    cd react-nodejs-smtp-mailer
 
 2. Gerekli paketleri yükleyin:
+   ```bash
    npm install
 
 3. `.env` dosyasını oluşturun ve SMTP sunucusu, e-posta adresi ve şifre gibi gizli bilgileri içine ekleyin:
+   ```bash
    SMTP_EMAIL=your_email@gmail.com
    SMTP_PASSWORD=your_password
